@@ -2,7 +2,7 @@
 --TRUNCATE TABLE C_MISADV;
 --TRUNCATE TABLE C_MISINPUT1;
 --TRUNCATE TABLE C_MISINPUT1;
-
+-- Changes related to temporary fix
 --=============================================================================
 --NAME          : SMGBFIRST_ACCT.sql
 --AUTHOR        : 
