@@ -1,6 +1,7 @@
 --TRUNCATE TABLE C_MISPRINT;
 --TRUNCATE TABLE C_MISADV;
 --TRUNCATE TABLE C_MISINPUT1;
+--TRUNCATE TABLE C_MISINPUT1;
 
 --=============================================================================
 --NAME          : SMGBFIRST_ACCT.sql
