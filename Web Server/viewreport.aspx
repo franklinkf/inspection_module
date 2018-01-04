@@ -27,6 +27,20 @@
             </tr>
             <tr>
                 <td class="td30left" width="35%">
+                    <asp:Label ID="lblReportID" runat="server" class="lbl9" Text="Report ID"></asp:Label>
+                </td>
+                <td class="td30left" width="15%">
+                    <asp:TextBox ID="txtReportID" runat="server" class="txt100"></asp:TextBox>
+                </td>
+                <td class="td30left" width="35%">
+                    <asp:Label ID="lblReportSLNo" runat="server" class="lbl9" Text="Report SL No"></asp:Label>
+                </td>
+                <td class="td30left" width="15%">
+                    <asp:TextBox ID="txtReportSLNo" runat="server" class="txt100"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td class="td30left" width="35%">
                     <asp:Label ID="Label1" runat="server" class="lbl9" Text="Generated From"></asp:Label>
                 </td>
                 <td class="td30left" width="15%">

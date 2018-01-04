@@ -20,7 +20,6 @@
 
     INSERT INTO C_MISINPUT1 (FIELD01,FIELD02,FIELD03,FIELD04,FIELD05,FIELD06,FIELD07,FIELD08,FIELD09,FIELD10,FIELD11,FIELD12,FIELD13,FIELD14,FIELD15,FIELD16,FIELD17,FIELD18,FIELD19,FIELD20,USERID,  USERSOLID ,BODDATE) 
     VALUES ('&&1','&&2','&&3','&&4','&&5','&&6','&&7','&&8','&&9','&&10','&&11','&&12','&&13','&&14','&&15','&&16','&&17','&&18','&&19','&&20','&&21','&&22','&&23');
-    COMMIT;
 
     --'&&1' -   Statement ID From - 1
     --'&&2' -   Statement ID To   - 999
@@ -32,6 +31,7 @@
 
     DECLARE
     
+        GSTATEMENTIDFROM            VARCHAR2(100):= '&&1';
         GSTATEMENTIDFROM            VARCHAR2(100):= '&&1';
         GSTATEMENTIDTO              VARCHAR2(100):= '&&2';
         GSTATEMENTNAME              VARCHAR2(100):= '&&3';
